@@ -7,6 +7,11 @@
 - Main window destroyed when closing on MacOS
 
 
+### Improvements
+
+- [#1062](https://github.com/RocketChat/Rocket.Chat.Electron/pull/1062) PDF support
+
+
 
 <a name="2.14.6"></a>
 ## 2.14.6 (2018-12-06)

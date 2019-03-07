@@ -1,16 +1,17 @@
 {
-  "name": "rocketchat",
-  "productName": "Rocket.Chat",
-  "description": "Rocket.Chat Native Cross-Platform Desktop Application via Electron.",
+  "name": "myco",
+  "productName": "MyCo",
+  "description": "MyCo Native Cross-Platform Desktop Application via Electron.",
   "version": "2.14.7",
+  "copyright": "© 2019",
   "author": "Rocket.Chat Support <support@rocket.chat>",
-  "copyright": "© 2018, Rocket.Chat",
-  "homepage": "https://rocket.chat",
-  "license": "MIT",
+  "homepage": "https://intranet.tui-takeoff.de",
+  "license": "UNLICENSED",
+  "private": true,
   "main": "app/background.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/RocketChat/Rocket.Chat.Electron.git"
+    "url": "https://gitlab.com/oesolution/myco/mycobase/client.git"
   },
   "scripts": {
     "postinstall": "electron-builder install-app-deps",
@@ -31,6 +32,7 @@
   },
   "dependencies": {
     "@paulcbetts/system-idle-time": "^1.0.4",
+    "electron-pdf-window": "^1.0.12",
     "electron-updater": "3.0.4",
     "freedesktop-notifications": "^1.2.3",
     "fs-jetpack": "^2.2.0",

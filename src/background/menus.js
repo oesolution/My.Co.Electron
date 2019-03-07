@@ -265,14 +265,14 @@ const createTemplate = ({
 		submenu: [
 			{
 				label: i18n.__('Documentation'),
-				click: () => events.emit('open-url', 'https://rocket.chat/docs'),
+				click: () => events.emit('open-url', '#'),
 			},
 			{
 				type: 'separator',
 			},
 			{
 				label: i18n.__('Report issue'),
-				click: () => events.emit('open-url', 'https://github.com/RocketChat/Rocket.Chat.Electron/issues/new'),
+				click: () => events.emit('open-url', '#'),
 			},
 			{
 				label: i18n.__('Reset app data'),
@@ -283,7 +283,7 @@ const createTemplate = ({
 			},
 			{
 				label: i18n.__('Learn more'),
-				click: () => events.emit('open-url', 'https://rocket.chat'),
+				click: () => events.emit('open-url', '#'),
 			},
 			...(process.platform !== 'darwin' ? [
 				{
