@@ -89,7 +89,7 @@
     "category": "GNOME;GTK;Network;InstantMessaging",
     "desktop": {
       "StartupWMClass": "My.Co",
-      "MimeType": "x-scheme-handler/myco"
+      "MimeType": "x-scheme-handler/rocketchat"
     }
   },
   "publish": [
