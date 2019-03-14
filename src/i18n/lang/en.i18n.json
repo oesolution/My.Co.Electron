@@ -44,9 +44,9 @@
     "Learn more": "Learn more",
     "Menu bar": "Menu bar",
     "Message_count": {
-        "zero": "Rocket.Chat: no unread message",
-        "one": "Rocket.Chat: you have %s unread message",
-        "multi": "Rocket.Chat: you have %s unread messages"
+        "zero": "MyCo: no unread message",
+        "one": "MyCo: you have %s unread message",
+        "multi": "MyCo: you have %s unread messages"
     },
     "Minimize": "Minimize",
     "More_spelling_suggestions": "More spelling suggestions",
